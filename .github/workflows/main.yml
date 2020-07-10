@@ -37,4 +37,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build React-covid19-Tracker-maazazhar.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build React-covid-Tracker-maazazhar.surge.sh --token ${{ secrets.SURGE_TOKEN }}
